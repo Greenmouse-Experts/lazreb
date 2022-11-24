@@ -59,7 +59,7 @@ export const Homepage = () => {
                     </div>
                 </div>
            </div>
-           <div className='section'>
+           <div className='section mt-0 lg:mt-10'>
                 <div className='lg:flex items-center'>
                     <div className='lg:w-6/12 lg:h-02 h-48 bg-second bg-cover relative'>
                         <div className='lg:absolute hidden lg:block -right-12 h-48 top-1/4 w-6/12 border-2 border-white'></div>
