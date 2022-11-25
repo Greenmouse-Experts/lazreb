@@ -12,7 +12,7 @@ export const Homepage = () => {
     <div>
         <div className='font-primary'>
            <Header/>
-           <div className='lg:h-01 relative z-10 bg-hero bg-bottom lg:bg-center bg-cover'>
+           <div className='lg:h-01 relative bg-hero bg-bottom lg:bg-center bg-cover'>
                 <div className='grid h-full py-6 lg:pb-12 lg:py-0 box content-center'>
                     <div className='lg:flex items-center'>
                         <div className='lg:w-6/12 my-20 lg:my-0 lg:leading text-white'>

@@ -176,5 +176,20 @@
     display:grid;
     grid-template-columns: 23% 23% 23% 23%;
   }
+  .menu{
+    position: absolute;
+    z-index:100;
+    background-color: white;
+    animation: menu .3s ease-in-out;
+  }
+  @keyframes menu {
+    from {
+      left:-400px;
+    }
+    to{
+      left:0px;
+    }
+    
+  }
 }
 
