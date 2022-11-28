@@ -19,26 +19,26 @@ export const Header = () => {
                         <Link to="/"><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1669194994/lazreb/IMG-20221122-WA0030_1_1_mceisb.png" alt="logo" className="lg:w-24 w-16 "/></Link>
                     </div>
                     <div className="w-8/12 hidden lg:flex fw-500 justify-between items-center">
-                        <Link to="/login" className="text-primary fw-700">
+                        <Link to="/" className="text-primary fw-700">
                             <button >Home</button>
                         </Link>
-                        <Link to="/login" className="">
+                        <Link to="/about" className="">
                             <button >About Us</button>
                         </Link>
-                        <Link to="/login" className="">
+                        <Link to="/services" className="">
                             <button >Our Services</button>
                         </Link>
-                        <Link to="/login" className="">
+                        <Link to="/" className="">
                             <button >Blog</button>
                         </Link>
-                        <Link to="/login" className="">
+                        <Link to="/contact" className="">
                             <button >Contact Us</button>
                         </Link>
                         <div className='flex items-center'>
                             <Link to="/login" className="text-primary fw-700 text-2xl pr-6">
                                 <RiUserShared2Line />
                             </Link>
-                            <Link to="/login" className="text-primary border-primary py-1 px-2 rounded-md fw-600">
+                            <Link to="/register" className="text-primary border-primary py-1 px-2 rounded-md fw-600">
                                 <button  >Sign Up</button>
                             </Link>
                         </div>

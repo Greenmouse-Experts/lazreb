@@ -107,6 +107,9 @@
   .bg-secondary{
     background: #FF7800;
   }
+  .bg-sec-op{
+    background: rgba(255, 125, 4, 0.58);
+  }
   .bg-light{
     background: #F6FAFD;
   }
@@ -152,6 +155,10 @@
     display:grid;
     grid-template-columns: 25% 25% 25%;
   }
+  .grid-3s{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+  }
   .grid-2{
     display:grid;
     grid-template-columns: 48% 48%;
@@ -190,6 +197,15 @@
       left:0px;
     }
     
+  }
+  .bg-fit{
+    background-size: 100% 100%;
+  }
+  .bg-gray{
+    background-color:rgba(246, 246, 246, 1)
+  }
+  .circle{
+    border-radius: 50%;
   }
 }
 

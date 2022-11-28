@@ -2,6 +2,7 @@ import React from 'react'
 import { BsFacebook, BsInstagram } from 'react-icons/bs'
 import { CiLinkedin } from 'react-icons/ci'
 import { AiFillTwitterCircle } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
@@ -23,11 +24,11 @@ export const Footer = () => {
                         <div>
                             <p className='fw-700 lg:text-2xl text-xl'>Links</p>
                             <ul className='mt-4'>
-                                <li className='mt-4'>Home</li>
-                                <li className='mt-4'>About Us</li>
-                                <li className='mt-4'>Our Services</li>
-                                <li className='mt-4'>Blog</li>
-                                <li className='mt-4'>Contact Us</li>
+                                <li className='mt-4'><Link to="/">Home</Link></li>
+                                <li className='mt-4'><Link to="/about">About Us</Link></li>
+                                <li className='mt-4'><Link to="/services">Our Services</Link></li>
+                                <li className='mt-4'><Link to="/">Blog</Link></li>
+                                <li className='mt-4'><Link to="contact">Contact Us</Link></li>
                             </ul>
                         </div>
                     </div>

@@ -39,9 +39,9 @@ export const HeroForm = () => {
  
   return (
     <Tabs id="custom-animation" value="html">
-      <TabsHeader className='py-3 bg-white lg:px-2 rounded-t-lg '>
+      <TabsHeader className='py-3 bg-white lg:px-2 rounded-t-lg  '>
         {data.map(({ label, value }) => (
-          <Tab key={value} value={value} className="fs-400">
+          <Tab key={value} value={value} className="fs-400 z-0">
             {label}
           </Tab>
         ))}
