@@ -28,7 +28,7 @@ export const Header = () => {
                         <Link to="/services" className="">
                             <button >Our Services</button>
                         </Link>
-                        <Link to="/" className="">
+                        <Link to="/blog" className="">
                             <button >Blog</button>
                         </Link>
                         <Link to="/contact" className="">
@@ -61,10 +61,11 @@ export const Header = () => {
                                     <li className="py-4"><Link to="/">Home</Link></li>
                                     <li className="py-4"><Link to="/about">About Us</Link></li>
                                     <li className="py-4"><Link to="/services">Our Services</Link></li>
-                                    <li className="py-4"><Link to="/">Blog</Link></li>
+                                    <li className="py-4"><Link to="/blog">Blog</Link></li>
                                     <li className="py-4"><Link to="/contact">Contact Us</Link></li>
-                                    <li className="py-4"><Link to="/">FAQs</Link></li>
+                                    <li className="py-4"><Link to="/faq">FAQs</Link></li>
                                     <li className="py-4 mt-7"><Link to="/login" className='bg-primary text-white px-6 py-2'>Login</Link></li>
+                                    <li className="py-4 mt-3"><Link to="/register" className='border-primary fw-600 px-6 py-2'>Sign Up</Link></li>
                                 </ul>
                             </div>
                         </div>

@@ -27,7 +27,8 @@ export const Footer = () => {
                                 <li className='mt-4'><Link to="/">Home</Link></li>
                                 <li className='mt-4'><Link to="/about">About Us</Link></li>
                                 <li className='mt-4'><Link to="/services">Our Services</Link></li>
-                                <li className='mt-4'><Link to="/">Blog</Link></li>
+                                <li className='mt-4'><Link to="/blog">Blog</Link></li>
+                                <li className='mt-4'><Link to="/faqs">FAQs</Link></li>
                                 <li className='mt-4'><Link to="contact">Contact Us</Link></li>
                             </ul>
                         </div>
@@ -47,6 +48,7 @@ export const Footer = () => {
                 </div>
             </div>
             <div className='border-t border-gray-400 lg:pt-8 pt-4 px-4 text-center'>
+                <p className='mb-2'><Link to="/terms" className='pr-3'>Terms & Conditions</Link>|<Link to="/privacy" className='pl-3'>Privacy Policy</Link></p>
                 <p>© {new Date().getFullYear() }  Lazreb Leasing & Logistics ltd. All rights reserved.</p>
             </div>
         </div>

@@ -145,6 +145,9 @@
   .border-rg{
     border-right: 7px solid #FF7800;
   }
+  .border-lg{
+    border-left: 7px solid #FF7800;
+  }
   .home-bg{
     background: #F5F5F5;
   }

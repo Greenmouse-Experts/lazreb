@@ -6,6 +6,7 @@ import { BsFillCaretRightFill }  from 'react-icons/bs';
 import { Review } from './home comp/Review';
 import { Footer } from './home comp/Footer';
 import CountUp from 'react-countup';
+import { Link } from 'react-router-dom';
 
 export const Homepage = () => {
   return (
@@ -17,7 +18,7 @@ export const Homepage = () => {
                     <div className='lg:flex items-center'>
                         <div className='lg:w-6/12 my-20 lg:my-0 lg:leading text-white'>
                             <p className='text-2xl lg:text-5xl fw-700'>Your solution to Logistics & Leasing problems.</p>
-                            <button className='lg:mt-10 mt-6 lg:px-8 px-6 bg-primary text-white fw-600 py-2 rounded-md'>Book Now</button>
+                            <Link to="/services"><button className='lg:mt-10 mt-6 lg:px-8 px-6 bg-primary text-white fw-600 py-2 rounded-md'>Our Services</button></Link>
                         </div>
                         <div className='lg:w-6/12'>
                             <div className='lg:w-10/12 mx-auto form-bg rounded-lg lg:float-right'>

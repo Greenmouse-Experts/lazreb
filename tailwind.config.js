@@ -9,7 +9,7 @@ module.exports = withMT({
         '01': '590px',
         '02': '440px',
         '03': '500px',
-        '100': '6%'
+        '100': '230%'
       },
        backgroundImage: {
         hero: "url('https://res.cloudinary.com/greenmouse-tech/image/upload/v1669209031/lazreb/hero_nw9ja9.png')",
@@ -22,6 +22,8 @@ module.exports = withMT({
         contact: "url('https://res.cloudinary.com/greenmouse-tech/image/upload/v1669635851/lazreb/Group_46596_1_1_smrwnz.png')",
         login: "linear-gradient(to right bottom, rgba(4, 43, 84, 0.9), rgba(4, 43, 84, 0.9)), url('https://res.cloudinary.com/greenmouse-tech/image/upload/v1669646604/lazreb/login_p6smcr.jpg')",
         register: "linear-gradient(to right bottom, rgba(4, 43, 84, 0.6), rgba(4, 43, 84, 0.9)), url('https://res.cloudinary.com/greenmouse-tech/image/upload/v1669651462/lazreb/register_fhr2vv.jpg')",
+        blog: "url('https://res.cloudinary.com/greenmouse-tech/image/upload/v1669715370/lazreb/Rectangle_61_4_owpvx9.png')",
+        faq: "url('https://res.cloudinary.com/greenmouse-tech/image/upload/v1669713459/lazreb/Rectangle_61_3_wilmlo.png')",
       },
     },
     fontFamily: {

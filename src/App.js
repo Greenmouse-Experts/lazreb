@@ -8,15 +8,25 @@ import { Login } from './components/pages/Login';
 import { Register } from './components/pages/Register';
 import { Forget } from './components/pages/Forget';
 import { EmailAuth } from './components/pages/EmailAuth';
+import ScrollToTop from './components/assets/ScrollTop';
+import { Blog } from './components/pages/Blog';
+import { Faqs } from './components/pages/Faqs';
+import { Terms } from './components/pages/Terms';
+import { Privacy } from './components/pages/Privacy';
 
 function App() {
   return (
     <div className="">
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={ <Homepage/> } />
         <Route path="/about" element={ <About/> } />
         <Route path="/services" element={ <Services/> } />
         <Route path="/contact" element={ <Contact/> } />
+        <Route path="/blog" element={ <Blog/> } />
+        <Route path="/faqs" element={ <Faqs/> } />
+        <Route path="/terms" element={ <Terms/> } />
+        <Route path="/privacy" element={ <Privacy/> } />
         <Route path="/login" element={ <Login/> } />
         <Route path="/register" element={ <Register/> } />
         <Route path="/forget" element={ <Forget/> } />
