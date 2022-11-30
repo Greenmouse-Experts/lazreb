@@ -42,7 +42,7 @@ export const Contact = () => {
                             <div className='flex mt-10'>
                                 <p className='text-white mt-1 mr-4 text-xl'><BiSupport className='text-white'/></p>
                                 <div>
-                                    <p className=''>info@companyemail.com</p>
+                                    <p className=''>info@lazreblogistics.com</p>
                                 </div>
                             </div>
                         </div>

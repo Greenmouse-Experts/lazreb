@@ -37,7 +37,7 @@ export const Footer = () => {
                         <p className='fw-700 lg:text-2xl text-xl'>Contact Us</p>
                         <p className='mt-4'>106, Isawo Road, Agric Bus Stop, Owutu, Ikorodu, Lagos State.</p>
                         <p className='my-3'>Branch office at 12, Alhaja Senabu Street, Akute, Ogun State.</p>
-                        <p>info@companyemail.com</p>
+                        <p>info@lazreblogistics.com</p>
                         <div className='mt-5 flex'>
                             <p className='mr-3 text-2xl'><BsFacebook/></p>
                             <p className='mr-3 text-3xl'><AiFillTwitterCircle/></p>
