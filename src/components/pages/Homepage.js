@@ -87,7 +87,7 @@ export const Homepage = () => {
                         <div className='lg:grid-2 justify-between lg:mt-12'>
                             <div className='border-rg mt-6 flex'>
                                 <div className='w-6/12'>
-                                    <img src='https://res.cloudinary.com/greenmouse-tech/image/upload/v1669195788/lazreb/Vector_1_1_pjvs0t.png' alt="work" className='w-full h-44 lg:h-auto'/>
+                                    <img src='https://res.cloudinary.com/greenmouse-tech/image/upload/v1669612951/lazreb/Group_46483_btbhbn.png' alt="work" className='w-full h-44 lg:h-auto'/>
                                 </div>
                                 <div className='w-6/12 grid bg-tertiary content-center'>
                                     <div className='lg:px-8 px-3'>
