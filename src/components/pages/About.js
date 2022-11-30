@@ -111,7 +111,7 @@ export const About = () => {
                             <div className='flex mt-10'>
                                 <div className='mt-2 mr-4'><Bullet/></div>
                                 <div>
-                                    <p className='fw-600'>Trustworthy</p>
+                                    <p className='fw-600'>Bold in integrity</p>
                                     <p className='fs-400 mt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                                 </div>
                             </div>
