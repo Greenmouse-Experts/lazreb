@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import { Link } from "react-router-dom";
 import { HiMenuAlt3 } from 'react-icons/hi';
-import { RiUserShared2Line } from 'react-icons/ri';
 import { FaRegWindowClose } from 'react-icons/fa';
 
 export const Header = () => {
@@ -15,10 +14,10 @@ export const Header = () => {
         <div className="relative z-10 bg-white">
             <div className="box">
                 <div className="justify-between items-center flex py-3 pb-3">
-                    <div className="w-4/12 flex">
+                    <div className="w-3/12 flex">
                         <Link to="/"><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1669194994/lazreb/IMG-20221122-WA0030_1_1_mceisb.png" alt="logo" className="lg:w-24 w-16 "/></Link>
                     </div>
-                    <div className="w-8/12 hidden lg:flex fw-500 justify-between items-center">
+                    <div className="w-6/12 hidden lg:flex fw-500 justify-between items-center">
                         <Link to="/" className="text-primary fw-700">
                             <button >Home</button>
                         </Link>
@@ -34,14 +33,14 @@ export const Header = () => {
                         <Link to="/contact" className="">
                             <button >Contact Us</button>
                         </Link>
-                        <div className='flex items-center'>
-                            <Link to="/login" className="text-primary fw-700 text-2xl pr-6">
-                                <RiUserShared2Line />
-                            </Link>
-                            <Link to="/register" className="text-primary border-primary py-1 px-2 rounded-md fw-600">
-                                <button  >Sign Up</button>
-                            </Link>
-                        </div>
+                    </div>
+                    <div className='w-3/12 flex justify-end items-center'>
+                        <Link to="/login" className="text-primary bg-primary text-white py-1 px-5 rounded-lg fw-600 mr-6">
+                            Login
+                        </Link>
+                        <Link to="/register" className="text-primary border-primary py-1 px-2 rounded-md fw-600">
+                            <button  >Sign Up</button>
+                        </Link>
                     </div>
                     <div className="text-black lg:hidden">
                         <HiMenuAlt3 className="text-4xl fw-700" onClick={() => {setMenuShow(true)}}/>
