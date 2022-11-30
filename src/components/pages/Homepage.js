@@ -3,6 +3,7 @@ import { Header } from './home comp/Header'
 import { HeroForm } from './home comp/HeroForm'
 import {FaGreaterThan, FaLessThan} from 'react-icons/fa';
 import { BsFillCaretRightFill }  from 'react-icons/bs';
+import { MdReadMore } from 'react-icons/md';
 import { Review } from './home comp/Review';
 import { Footer } from './home comp/Footer';
 import CountUp from 'react-countup';
@@ -18,7 +19,7 @@ export const Homepage = () => {
                     <div className='lg:flex items-center'>
                         <div className='lg:w-6/12 my-20 lg:my-0 lg:leading text-white'>
                             <p className='text-2xl lg:text-5xl fw-700'>Your solution to Logistics & Leasing problems.</p>
-                            <Link to="/services"><button className='lg:mt-10 mt-6 lg:px-8 px-6 bg-primary text-white fw-600 py-2 rounded-md'>Our Services</button></Link>
+                            <Link to="/services"><button className='lg:mt-10 mt-6 lg:px-8 px-6 bg-secondary text-white lg:fw-700 lg:text-lg fw-600 py-2 rounded-md'>Our Services</button></Link>
                         </div>
                         <div className='lg:w-6/12'>
                             <div className='lg:w-10/12 mx-auto form-bg rounded-lg lg:float-right'>
@@ -63,12 +64,15 @@ export const Homepage = () => {
            <div className='section mt-0 lg:mt-10'>
                 <div className='lg:flex items-center'>
                     <div className='lg:w-6/12 lg:h-02 h-48 bg-second bg-cover relative'>
-                        <div className='lg:absolute hidden lg:block -right-12 h-48 top-1/4 w-6/12 border-2 border-white'></div>
+                        {/* <div className='lg:absolute hidden lg:block -right-12 h-48 top-1/4 w-6/12 border-2 border-white'></div> */}
                     </div>
-                    <div className='lg:w-6/12 lg:h-72 fs-500 lg:fs-600 bg-primary grid content-center'>
+                    <div className='lg:w-6/12 lg:h-80 fs-500 lg:fs-600 bg-primary grid content-center'>
                         <div className='lg:w-9/12 px-4 lg:px-0 py-8 lg:py-0 mx-auto text-white'>
                             <p className='fw-700 text-xl'>About Us</p>
                             <p className='mt-6'>Lazreb Leasing & Logistics Ltd was incorporated on the 16th of March 2021 with CAC, Nigeria. We provide total solutions to Clients in Leasing and Logistics businesses, especially with our e-solutions which always put our services on demand.</p>
+                            <Link to="about">
+                                <p className='mt-5 flex items-center fs-500'>Read More <p className='pl-2 text-xl'><MdReadMore/></p></p>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -88,9 +92,8 @@ export const Homepage = () => {
                                 <div className='w-6/12 grid bg-tertiary content-center'>
                                     <div className='lg:px-8 px-3'>
                                         <p className='fw-600 fs-500 lg:fs-700'>Logistics and Delivery</p>
-                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-                                        <p className='fw-600 fs-400 lg:fs-600 text-secondary'>Learn more</p>
-                                    </div>
+                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                     </div>
                                 </div>
                             </div>
                             <div className='border-rg mt-6 flex'>
@@ -100,8 +103,8 @@ export const Homepage = () => {
                                 <div className='w-6/12 grid bg-tertiary content-center'>
                                     <div className='lg:px-8 px-3'>
                                         <p className='fw-600 fs-500 lg:fs-700'>Fleet Management</p>
-                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-                                        <p className='fw-600 fs-400 lg:fs-600 text-secondary'>Learn more</p>
+                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -112,8 +115,8 @@ export const Homepage = () => {
                                 <div className='w-6/12 grid bg-tertiary content-center'>
                                     <div className='lg:px-8 px-3'>
                                         <p className='fw-600 fs-500 lg:fs-700'>Vehicle Rentals</p>
-                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-                                        <p className='fw-600 fs-400 lg:fs-600 text-secondary'>Learn more</p>
+                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -124,11 +127,14 @@ export const Homepage = () => {
                                 <div className='w-6/12 grid bg-tertiary content-center'>
                                     <div className='lg:px-8 px-3'>
                                         <p className='fw-600 fs-500 lg:fs-700'>Charter & Transportation</p>
-                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-                                        <p className='fw-600 fs-400 lg:fs-600 text-secondary'>Learn more</p>
+                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                        
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className='text-center lg:mt-10 mt-6'>
+                            <Link to="/services"><button className='fw-600 lg:fw-700 lg:px-10 lg:py-2 py-1 px-5 border-primary text-primary rounded-xl'>View All</button></Link>
                         </div>
                     </div>
                 </div>
@@ -187,7 +193,7 @@ export const Homepage = () => {
                             </div>
                         </div>
                         <div className='text-center lg:mt-10 mt-6'>
-                            <button className='fw-600 lg:fw-700 lg:px-10 lg:py-2 py-1 px-5 border-primary text-primary rounded-xl'>View All</button>
+                            <Link to="/blog"><button className='fw-600 lg:fw-700 lg:px-10 lg:py-2 py-1 px-5 border-primary text-primary rounded-xl'>View All</button></Link>
                         </div>
                     </div>
                 </div>
