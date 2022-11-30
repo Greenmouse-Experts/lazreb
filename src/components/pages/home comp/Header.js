@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { HiMenuAlt3 } from 'react-icons/hi';
 import { FaRegWindowClose } from 'react-icons/fa';
 
@@ -9,6 +9,9 @@ export const Header = () => {
     const CloseMenu = () => {
         setMenuShow(false);
     }
+    const activeStyle = {
+        fontWeight: "700",
+    };
 
     return (
         <div className="relative z-10 bg-white">
@@ -18,21 +21,31 @@ export const Header = () => {
                         <Link to="/"><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1669194994/lazreb/IMG-20221122-WA0030_1_1_mceisb.png" alt="logo" className="lg:w-24 w-16 "/></Link>
                     </div>
                     <div className="w-6/12 hidden lg:flex fw-500 justify-between items-center">
-                        <Link to="/" className="text-primary fw-700">
+                        <NavLink 
+                            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                            to="/" className="text-primary">
                             <button >Home</button>
-                        </Link>
-                        <Link to="/about" className="">
+                        </NavLink>
+                        <NavLink 
+                            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                            to="/about" className="">
                             <button >About Us</button>
-                        </Link>
-                        <Link to="/services" className="">
+                        </NavLink>
+                        <NavLink
+                            style={({ isActive }) => (isActive ? activeStyle : undefined)} 
+                            to="/services" className="">
                             <button >Our Services</button>
-                        </Link>
-                        <Link to="/blog" className="">
+                        </NavLink>
+                        <NavLink 
+                            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                            to="/blog" className="">
                             <button >Blog</button>
-                        </Link>
-                        <Link to="/contact" className="">
+                        </NavLink>
+                        <NavLink 
+                            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                            to="/contact" className="">
                             <button >Contact Us</button>
-                        </Link>
+                        </NavLink>
                     </div>
                     <div className='w-3/12 flex justify-end items-center'>
                         <Link to="/login" className="text-primary bg-primary text-white py-1 px-5 rounded-lg fw-600 mr-6">

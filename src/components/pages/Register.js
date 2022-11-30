@@ -9,9 +9,9 @@ export const Register = () => {
     <div>
          <div className='flex bg-register bg-fit justify-center items-center min-h-screen '>
             <div className='lg:w-7/12 xl:w-6/12 py-6 px-10 bg-white'>
-                <Link to="/"><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1669194994/lazreb/IMG-20221122-WA0030_1_1_mceisb.png" alt="logo" className='lg:w-20 w-16' /></Link>
+                <Link to="/"><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1669194994/lazreb/IMG-20221122-WA0030_1_1_mceisb.png" alt="logo" className='lg:w-20 w-16 mx-auto' /></Link>
                 <div className='pb-6 pt-3'>
-                    <p className='text-gray-600 fw-600'>Create your account</p>
+                    <p className='text-gray-600 fw-600 text-center'>Create your account</p>
                 </div>
                 <form>
                     <div className='lg:flex'>
