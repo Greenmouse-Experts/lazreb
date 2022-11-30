@@ -47,7 +47,7 @@ export const Header = () => {
                             <button >Contact Us</button>
                         </NavLink>
                     </div>
-                    <div className='w-3/12 flex justify-end items-center'>
+                    <div className='w-3/12 hidden lg:flex justify-end items-center'>
                         <Link to="/login" className="text-primary bg-primary text-white py-1 px-5 rounded-lg fw-600 mr-6">
                             Login
                         </Link>

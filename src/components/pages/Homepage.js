@@ -81,7 +81,7 @@ export const Homepage = () => {
                 <div className='box'>
                     <div>
                         <div className='text-center'>
-                            <p className='fw-600 fs-700'>Our Works</p>
+                            {/* <p className='fw-600 fs-700'>Our Works</p> */}
                             <p className='text-3xl fw-700'>What We Do</p>
                         </div>
                         <div className='lg:grid-2 justify-between lg:mt-12'>
@@ -92,7 +92,7 @@ export const Homepage = () => {
                                 <div className='w-6/12 grid bg-tertiary content-center'>
                                     <div className='lg:px-8 px-3'>
                                         <p className='fw-600 fs-500 lg:fs-700'>Logistics and Delivery</p>
-                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        <p className='fs-300 lg:fs-400 h-32 xl:h-auto overflow-y-auto py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                                      </div>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@ export const Homepage = () => {
                                 <div className='w-6/12 grid bg-tertiary content-center'>
                                     <div className='lg:px-8 px-3'>
                                         <p className='fw-600 fs-500 lg:fs-700'>Fleet Management</p>
-                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
                                         
                                     </div>
                                 </div>
@@ -115,7 +115,7 @@ export const Homepage = () => {
                                 <div className='w-6/12 grid bg-tertiary content-center'>
                                     <div className='lg:px-8 px-3'>
                                         <p className='fw-600 fs-500 lg:fs-700'>Vehicle Rentals</p>
-                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
                                         
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@ export const Homepage = () => {
                                 <div className='w-6/12 grid bg-tertiary content-center'>
                                     <div className='lg:px-8 px-3'>
                                         <p className='fw-600 fs-500 lg:fs-700'>Charter & Transportation</p>
-                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
                                         
                                     </div>
                                 </div>
