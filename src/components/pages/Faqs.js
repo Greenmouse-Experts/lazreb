@@ -16,7 +16,7 @@ export const Faqs = () => {
             <div className='box'>
                 <div className='text-center'>
                     <p className='lg:text-2xl fw-700 text-lg'>How can we help you?</p>
-                    <p className='fw-500 fs-400 mt-4'>Choose a category to quckly find the help you need</p>
+                    <p className='fw-500 fs-400 mt-4'>Choose a category to quickly find the help you need</p>
                     <div className='mt-12 lg:grid-3s justify-between'>
                         <div className='shadow-md lg:p-8 p-5'>
                             <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1669717842/lazreb/Rectangle_19349_a5jrny.png" alt="faq" className='w-16 mx-auto' />

@@ -12,7 +12,7 @@ export const Footer = () => {
                 <div className='lg:flex'>
                     <div className='lg:w-4/12'>
                         <p className='lg:fw-700 fw-600 text-xl lg:text-2xl'>Join our mailing list</p>
-                        <p className='py-6'>Subscribe to our newsletter and be the first to recieve emails on our latest updates and offers</p>
+                        <p className='py-6'>Subscribe to our newsletter and be the first to receive emails on our latest updates and offers</p>
                         <form>
                             <input type="text" placeholder="Your email" className='text-black py-4 px-3 w-full rounded-md' />
                             <button className='py-3 mt-5 w-full rounded-md fw-600 bg-secondary'>
