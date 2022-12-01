@@ -36,7 +36,7 @@ export const Homepage = () => {
                         <p className='fw-700 text-lg lg:text-2xl py-1'>
                             <CountUp start={0} end={7818} suffix=" +" duration={8}/>
                         </p>
-                        <p className='fw-500 fs-600 lg:fs-700'>PAKAGES</p>
+                        <p className='fw-500 fs-600 lg:fs-700'>PACKAGES</p>
                     </div>
                     <div className='text-center mt-4 lg:mt-0'>
                         <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1669211213/lazreb/Group_46576_zihq4s.png" alt="pakage" className='mx-auto py-2' />
@@ -92,7 +92,7 @@ export const Homepage = () => {
                                 <div className='w-6/12 grid bg-tertiary content-center'>
                                     <div className='lg:px-8 px-3'>
                                         <p className='fw-600 fs-500 lg:fs-700'>Logistics and Delivery</p>
-                                        <p className='fs-300 lg:fs-400 h-32 xl:h-auto overflow-y-auto py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                        <p className='fs-300 lg:fs-400 py-1 lg:py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                                      </div>
                                 </div>
                             </div>
