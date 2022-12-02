@@ -41,11 +41,11 @@ export const Register = () => {
                     <div className='lg:flex'>
                         <div className='lg:w-6/12 lg:pr-6 mt-6'>
                             <label className='fw-500'>Password</label>
-                            <input type="password" placeholder="Enter your email" className="w-full p-2 mt-2 rounded border border-gray-400"/>
+                            <input type="password" placeholder="Enter your password" className="w-full p-2 mt-2 rounded border border-gray-400"/>
                         </div>
                         <div className='lg:w-6/12 lg:pl-6 mt-6'>
                             <label className='fw-500'>Confirm Password</label>
-                            <input type="password" placeholder="Enter your email" className="w-full p-2 mt-2 rounded border border-gray-400"/>
+                            <input type="password" placeholder="Enter your password" className="w-full p-2 mt-2 rounded border border-gray-400"/>
                         </div>
                     </div>
                     <div className='flex items-start my-5'>

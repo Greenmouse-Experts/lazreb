@@ -13,6 +13,7 @@ import { Blog } from './components/pages/Blog';
 import { Faqs } from './components/pages/Faqs';
 import { Terms } from './components/pages/Terms';
 import { Privacy } from './components/pages/Privacy';
+import { BusDetails } from './components/pages/BusDetails';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/faqs" element={ <Faqs/> } />
         <Route path="/terms" element={ <Terms/> } />
         <Route path="/privacy" element={ <Privacy/> } />
+        <Route path="/bustype" element={ <BusDetails/> } />
         <Route path="/login" element={ <Login/> } />
         <Route path="/register" element={ <Register/> } />
         <Route path="/forget" element={ <Forget/> } />
