@@ -74,7 +74,7 @@ export const Contact = () => {
                                 </div>
                                 <div className="mt-10 w-full overflow-hidden">
                                     <ReCAPTCHA
-                                        sitekey={process.env.REACT_APP_SITE_KEY}
+                                        sitekey="6Lc2fk4jAAAAALrd7ZbSKm0sFi9DH4XH1DMdFwzo"
                                         ref={captchaRef}
                                     />
                                 </div>
