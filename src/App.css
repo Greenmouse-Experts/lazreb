@@ -167,6 +167,10 @@
     display:grid;
     grid-template-columns: 48% 48%;
   }
+  .grid-2s{
+    display: grid;
+    grid-template-columns: 40% 40%;
+  }
   .menu-btn{
     left:33%;
   }
