@@ -2,7 +2,7 @@ import React from 'react'
 
 export const BookSit = () => {
   return (
-    <div className='font-primary'>
+    <div className='font-primary fs-500'>
         <form>
             <div>
                 <label className='block fw-600'>Travelling From</label>
