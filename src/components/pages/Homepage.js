@@ -1,6 +1,6 @@
 import React from 'react'
 import { Header } from './home comp/Header'
-import { HeroForm } from './home comp/HeroForm'
+import { HerForm } from './home comp/HeroForm'
 import {FaGreaterThan, FaLessThan} from 'react-icons/fa';
 import { BsFillCaretRightFill }  from 'react-icons/bs';
 import { MdReadMore } from 'react-icons/md';
@@ -23,7 +23,8 @@ export const Homepage = () => {
                         </div>
                         <div className='lg:w-6/12'>
                             <div className='lg:w-10/12 mx-auto form-bg rounded-lg lg:float-right'>
-                                <HeroForm/>
+                                {/* <HeroForm/> */}
+                                <HerForm/>
                             </div>
                         </div>
                     </div>

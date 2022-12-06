@@ -2,6 +2,7 @@ import React from 'react'
 import { FaGreaterThan, FaLessThan } from 'react-icons/fa'
 import { Footer } from './home comp/Footer'
 import { Header } from './home comp/Header'
+import { HerForm } from './home comp/HeroForm'
 
 export const Blog = () => {
   return (
@@ -86,6 +87,7 @@ export const Blog = () => {
                 </div>
             </div>
         </div>
+        <HerForm/>
         <Footer/>
     </div>
   )
