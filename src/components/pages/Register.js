@@ -1,9 +1,18 @@
-import React, {useRef} from 'react'
+import React, {useRef, useState} from 'react'
 import { Link } from 'react-router-dom'
 import ReCAPTCHA from "react-google-recaptcha";
+import { FaRegEyeSlash, FaRegEye } from 'react-icons/fa';
 
 export const Register = () => {
     const captchaRef = useRef(null)
+    const [passwordType, setPasswordType] = useState("password");
+    const togglePassword = () => {
+        if (passwordType === "password") {
+            setPasswordType("text")
+            return;
+        }
+        setPasswordType("password")
+    }
 
   return (
     <div>
@@ -41,16 +50,40 @@ export const Register = () => {
                     <div className='lg:flex'>
                         <div className='lg:w-6/12 lg:pr-6 mt-4'>
                             <label className='fw-500'>Password</label>
-                            <input type="password" placeholder="Enter your password" className="w-full py-1 p-2 mt-2 rounded border border-gray-400"/>
+                            <div className="flex items-center bg-input border border-gray-400 mt-1 rounded">
+                                <input
+                                    type={passwordType}
+                                    placeholder="Enter your desired password"
+                                    className="w-full border-0 py-1 px-2 rounded"
+                                    
+                                />
+                                <div onClick={togglePassword} className="px-3">
+                                    {passwordType === "password" ? <FaRegEyeSlash className="text-xl" /> : <FaRegEye className="text-xl" />}
+                                </div>
+                            </div>
                         </div>
                         <div className='lg:w-6/12 lg:pl-6 mt-4'>
                             <label className='fw-500'>Confirm Password</label>
-                            <input type="password" placeholder="Enter your password" className="w-full py-1 p-2 mt-2 rounded border border-gray-400"/>
+                            <div className="flex items-center bg-input border border-gray-400 mt-1 rounded">
+                                <input
+                                    type={passwordType}
+                                    placeholder="Enter your desired password"
+                                    className="w-full border-0 py-1 px-2 rounded"
+                                    
+                                />
+                                <div onClick={togglePassword} className="px-3">
+                                    {passwordType === "password" ? <FaRegEyeSlash className="text-xl" /> : <FaRegEye className="text-xl" />}
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div className='lg:w-6/12 lg:pr-6 mt-4'>
+                        <label className='fw-500'>Referral Code</label>
+                        <input type="text" placeholder="Enter referral code (if any)" className="w-full py-1 p-2 mt-2 rounded border border-gray-400"/>
                     </div>
                     <div className='flex items-start my-4'>
                         <input type="checkbox" className='mt-2 mr-3'/>
-                        <p>By Signing Up, I Agree to the Terms and Conditions and Privacy Policy</p>
+                        <p>By Signing Up, I Agree to the <Link to="/terms" className='text-primary fw-500'>Terms and Conditions</Link> and <Link to="/privacy" className='fw-500 text-primary'>Privacy Policy</Link></p>
                     </div>
                     <div className="mt-4 w-full overflow-hidden">
                         <ReCAPTCHA

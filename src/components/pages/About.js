@@ -112,7 +112,7 @@ export const About = () => {
                                 <div className='mt-2 mr-4'><Bullet/></div>
                                 <div>
                                     <p className='fw-600'>Bold in integrity</p>
-                                    <p className='fs-400 mt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                    <p className='fs-400 mt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo </p>
                                 </div>
                             </div>
                         </div>
