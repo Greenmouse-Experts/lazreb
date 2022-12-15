@@ -8,6 +8,10 @@ import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from "@material-tailwind/react";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { injectStyle } from "react-toastify/dist/inject-style";
+
+// CALL IT ONCE IN YOUR APP
+injectStyle();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
