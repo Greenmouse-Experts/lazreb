@@ -8,9 +8,9 @@ const register = (payload) => {
 
 const login = async (payload) => {
     const response = await axios
-        .post(API_URL + "/auth/login", {
+        .post(API_URL + "/auth/login",
             payload
-        });
+            );
     if (response.data.accessToken) {
         localStorage.setItem("user", JSON.stringify(response.data));
     }
