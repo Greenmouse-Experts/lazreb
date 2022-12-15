@@ -7,13 +7,14 @@ import { Contact } from './components/pages/Contact';
 import { Login } from './components/pages/Login';
 import { Register } from './components/pages/Register';
 import { Forget } from './components/pages/Forget';
-import { EmailAuth } from './components/pages/EmailAuth';
+// import { EmailAuth } from './components/pages/EmailAuth';
 import ScrollToTop from './components/assets/ScrollTop';
 import { Blog } from './components/pages/Blog';
 import { Faqs } from './components/pages/Faqs';
 import { Terms } from './components/pages/Terms';
 import { Privacy } from './components/pages/Privacy';
 import { BusDetails } from './components/pages/BusDetails';
+import { EmailVeryfy } from './components/pages/EmailVerify';
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
         <Route path="/login" element={ <Login/> } />
         <Route path="/register" element={ <Register/> } />
         <Route path="/forget" element={ <Forget/> } />
-        <Route path="/for" element={ <EmailAuth/> } />
+        <Route path="/for" element={ <EmailVeryfy/> } />
       </Routes>
     </div>
   );
